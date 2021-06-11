@@ -23,7 +23,7 @@
  
  ## 기능
  
- ### + 전처리
++  ### 전처리
  
   ![image](https://user-images.githubusercontent.com/50603248/121655334-7daaed80-cad9-11eb-84b0-b1146389e30d.png)
   
@@ -32,7 +32,7 @@
 오른쪽 박스에서는 ‘전체 데이터 표’, ‘전체 데이터 Plot’을 제공한다.
 이를 통해 사용자는 정제되지 않은 데이터에 대한 정보를 확인할 수 있다.
 
-### + 임베딩
++ ### 임베딩
 
   ![image](https://user-images.githubusercontent.com/50603248/121655453-97e4cb80-cad9-11eb-8ed7-8b43a1c7bc89.png)
   ![image](https://user-images.githubusercontent.com/50603248/121655486-9d421600-cad9-11eb-9851-084b288d641f.png)
@@ -41,7 +41,7 @@
 (‘주성분 분석 막대 그래프’ 는 PCA 알고리즘에서만 제공하며 ‘임베딩된 3차원 데이터 그래프’ 는 PCA 와 UAMP 에서 제공)
  이를 통해 사용자는 임베딩 결과를 다양한 그래프를 통해 확인할 수 있으며, 만약 원하지 않은 결과가 나왔더라도 해당 탭에서 결과 값을 확인하고 다시 임베딩 할 수 있도록 하였다.
 
-### + 군집화
++ ### 군집화
 
   ![image](https://user-images.githubusercontent.com/50603248/121655583-ae8b2280-cad9-11eb-92af-7190772fda0b.png)
    ![image](https://user-images.githubusercontent.com/50603248/121655630-b8148a80-cad9-11eb-9e8c-19cfa9e8a0b4.png)
