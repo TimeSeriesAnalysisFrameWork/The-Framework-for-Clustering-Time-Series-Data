@@ -518,3 +518,484 @@ body {
   visibility: visible;
   opacity: 1;
 }
+.q_pre{
+  position: relative;
+
+    margin: 0px 10px 3px 10px !important;
+    color:#1E2130 ;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 71%;
+    text-align: center;
+    display: inline-block;
+    width: 3ex;
+    height: 3ex;
+    border-radius: 1.7ex;
+    background: white;
+    border: 2px solid #b8b9ba;
+    cursor: default !important;
+}
+.q_pre .tooltiptext {
+  visibility: hidden;
+  width: 290px;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  padding: 10px 10px 0px 10px;
+  font-family: 고딕;
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 145%;
+  left: -40%;
+  font-size: 12px;
+  white-space: pre-wrap;
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.q_pre .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -25px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.q_pre:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.q .tooltiptext {
+  visibility: hidden;
+  width: 320px;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  padding: 15px 5px 5px 10px;
+  font-family: 고딕;
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 135%;
+  left: -40%;
+  font-size: 12px;
+  white-space: pre-wrap;
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.q .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -50px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.q:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.q .tooltiptext2 {
+  visibility: hidden;
+  width: 390px;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  padding: 15px 5px 5px 10px;
+  font-family: 고딕;
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 135%;
+  left: -40%;
+  font-size: 12px;
+  white-space: pre-wrap;
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.q .tooltiptext2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -50px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.q:hover .tooltiptext2 {
+  visibility: visible;
+  opacity: 1;
+}
+.q .tooltiptext3 {
+  visibility: hidden;
+  width: 310px;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  padding: 15px 5px 5px 10px;
+  font-family: 고딕;
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 135%;
+  left: -40%;
+  font-size: 12px;
+  white-space: pre-wrap;
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.q .tooltiptext3::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -75px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.q:hover .tooltiptext3 {
+  visibility: visible;
+  opacity: 1;
+}
+.flex-display-image {
+  padding: 2px 0px 2px 10px;
+  display: flex;
+  background-color: #1e2130;
+  margin: 20px 0px 25px 0px;
+  border-radius:10px;
+  border : 0.5px solid #b8b9ba;
+}
+.radio_image{
+  background-color: #1e2130;
+  padding:2px;
+}
+.radio_image2{
+  padding:2px 5px 2px 5px;
+}
+.inline_flex_image{
+  background-color: #1e2130;
+  width: 50%;
+  padding:0px 10px 0px 10px;
+  display:inline-flex;
+  }
+.dcc_control_image {
+  background-color: #1e2130;
+  margin: 0;
+  padding: 20px 15px 20px 8px ;
+  width: calc(45%);
+  display:inline-block;
+  border-right: 1px solid #acaeb0;
+  line-height:26px;
+  text-align:center;
+}
+.radio{
+  display :inline-block;
+  margin-left: 10px;
+}
+.dcc_auto{
+  width:90%;
+  margin:5px 1px 11px 5px;
+}
+.dcc_auto2{
+  width:90%;
+  margin:2px 1px 6px 1px;
+}
+.dcc_control_label{
+  color: #f3f5f4 !important;
+  padding :3px;
+
+}
+.pro_val{
+  display: inline-block;
+  width:45%;
+  margin:10px 10px 23px 10px;
+}
+.input_val {
+  margin-top: 3px;
+  padding: 5px;
+  width: 100%;
+  color: #000000 !important;
+}
+.label_tm{
+  margin-top: 15px;
+}
+.label_bm{
+  margin: 0px 5px 5px 5px;
+}
+.dcc_control {
+  color: #000000 !important;
+  margin: 0;
+  padding: 5px;
+  width: calc(70%);
+}
+.dcc_control_umap1 {
+  color: #f3f5f4 !important;
+  margin: 3px;
+  text-align:center;
+  padding: 3px;
+  display:inline-block;
+  width: fit-content;
+}
+.dcc_control_umap2 {
+  margin: 0px 5px 0px 5px;
+  padding: 5px;
+  display:inline-block;
+  width:70%;
+}
+.umap_options{
+  display: flex;
+  margin: 5px 2px 20px 2px ;
+}
+
+.dcc_control2 {
+  margin-top: 3px;
+  padding: 5px;
+  width: 70px;
+  color: #000000 !important;
+  display:inline-block;
+}
+.dcc_control3 {
+  width: 330px;
+  margin-top: 3px;
+  color: #000000 !important;
+  display:inline-block;
+}
+.info{
+  display:inline-block;
+  width:35%;
+  margin:1px 3px 1px 3px;
+}
+.info2{
+  display:inline-block;
+  width:18%;
+}
+.info3{
+  display:flex;
+  padding: 0px 10px 10px 10px;}
+.info_half{
+  display:inline-flex;
+  width:50%;
+  margin: 0px 5px 0px 20px;
+}
+.info_label{
+  display:inline-block;
+  width:50%;
+  margin :0px 0px 0px 30px;}
+.dcc_input_p{
+  margin-top:5px;
+  padding-left: 15px;
+  padding-right:25px;
+}
+.inline_flex{
+  display:inline-flex;}
+.inline_flex_umap{
+  display:inline-flex;
+  width:50%}
+.flex1{
+  display:flex;
+  padding-top:10px;
+  }
+.dcc_btn1 {
+  margin: 10px;
+  padding: 0px;
+  width: calc(100%);
+  display=inline-block;
+  background-color: #2d3038;
+  color: #f3f5f4;
+}
+.dcc_btn {
+  margin: 0;
+  padding: 5px;
+  width: calc(20%);
+}
+.dcc_btn3 {
+  margin: 0;
+  width: calc(100%);
+  display:inline-block;
+  background-color: #2d3038;
+  color: #f3f5f4;
+}
+.dcc_btn4 {
+  margin: 0;
+  width: calc(50%);
+  display:inline-block;
+  background-color: #2d3038;
+  color: #f3f5f4;
+}
+.dcc_btn2 {
+  margin: 0;
+  padding: 5px;
+  height:75px;
+  width:20%;
+  display: inline-block;
+  background-color: #2d3038;
+  color: #f3f5f4;
+}
+.dcc_btn_show_graph {
+  margin: 5 0 0 0;
+  padding: 5px;
+  width: calc(20%);
+}
+.c_75{
+display:inline-block;
+  width:75%;
+}
+
+.c_45{
+  display:flex !important;
+  width:49%;
+
+}
+.cc_45{
+  display:inline-block;
+  width:90px;
+  padding: 7px 0px 3px 9px;
+margin:0px 0px 0px 2px;
+}
+.ccc_45{
+  display:inline-block;
+  width:90px;
+}
+.cc_100{
+font-size: 19px;
+padding: 4px 4px 4px 10px;
+width:100%;}
+.control_label {
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-top:10px;
+  margin-bottom: 20px;
+  width: calc(100%-40px);
+
+}
+
+.rc-slider {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.container-display {
+  display: flex;
+}
+
+#individual_graph,
+#aggregate_graph {
+  width: calc(100% - 30px);
+  position: absolute;
+}
+
+#count_graph {
+  position: absolute;
+  height: calc(100% - 30px);
+  width: calc(100% - 30px);
+}
+
+#countGraphContainer {
+  flex: 5;
+  position: relative;
+}
+
+#header {
+  align-items: center;
+}
+
+#learn-more-button {
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  text-transform: none;
+  font-size: 15px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+#title {
+  text-align: center;
+}
+
+.mini_container {
+  border-radius: 5px;
+  background-color: #161a28;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+
+}
+
+.dashboard-panel-6 {
+   width: 70%;
+}
+
+#right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#wells {
+  flex: 1;
+}
+
+#gas {
+  flex: 1;
+}
+
+#aggregate_data {
+  align-items: center;
+}
+
+#oil {
+  flex: 1;
+}
+
+#water {
+  flex: 1;
+}
+
+#tripleContainer {
+  display: flex;
+  flex: 3;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#pie_graph > div > div > svg:nth-child(3) > g.infolayer > g.legend {
+  pointer-events: all;
+  transform: translate(30px, 349px);
+}
